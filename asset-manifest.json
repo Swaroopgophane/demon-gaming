@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/demon-gaming/static/css/main.b283e1b4.css",
-    "main.js": "/demon-gaming/static/js/main.4f29a175.js",
+    "main.js": "/demon-gaming/static/js/main.2d08e058.js",
     "static/media/Video-Game-Wallpapers-Free-HD-Wallpaper.jpg": "/demon-gaming/static/media/Video-Game-Wallpapers-Free-HD-Wallpaper.ee97a8b9d1a1b6b411cc.jpg",
     "static/media/assassins-creed-game-4k-h8-3840x2400.jpg": "/demon-gaming/static/media/assassins-creed-game-4k-h8-3840x2400.de9ea6637020477e2a4c.jpg",
     "static/media/gears-4-gameplay-4k-8o-min.jpg": "/demon-gaming/static/media/gears-4-gameplay-4k-8o-min.6912d35d7d30b15e41df.jpg",
@@ -9,10 +9,10 @@
     "static/media/Desktop-gaming-backgrounds-1080p-dosh-tosh.jpg": "/demon-gaming/static/media/Desktop-gaming-backgrounds-1080p-dosh-tosh.c2e6027d774ccd09f957.jpg",
     "index.html": "/demon-gaming/index.html",
     "main.b283e1b4.css.map": "/demon-gaming/static/css/main.b283e1b4.css.map",
-    "main.4f29a175.js.map": "/demon-gaming/static/js/main.4f29a175.js.map"
+    "main.2d08e058.js.map": "/demon-gaming/static/js/main.2d08e058.js.map"
   },
   "entrypoints": [
     "static/css/main.b283e1b4.css",
-    "static/js/main.4f29a175.js"
+    "static/js/main.2d08e058.js"
   ]
 }
