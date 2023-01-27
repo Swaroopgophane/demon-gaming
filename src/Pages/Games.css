@@ -76,3 +76,10 @@
 
 
 }
+
+
+@media (min-width:570px) and (max-width:768px){
+    .common-page-head h2{
+        font-size: 50px;
+    }
+}

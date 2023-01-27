@@ -306,5 +306,17 @@
 
 
 
+@media (min-width:570px) and (max-width:768px){
 
+    .main-section{
+        background-attachment: unset;
+        height:auto;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .main-inner h1{
+        font-size: 45px;
+    }
+}
 

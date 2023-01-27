@@ -67,6 +67,10 @@
 
     /*========== Contact page media query ======== */
 
+    .contact-container{
+        width: 90%;
+    }
+
     .form-group{
         flex-direction: column;
     }
