@@ -14,10 +14,10 @@ function App() {
   return (
     <>
    
-   <BrowserRouter>
+   <BrowserRouter basename="/demon-gaming">
    <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/demon-gaming" element={<Home />} />
         <Route path="games" element={<Games />} />
         <Route path="reviews" element={<Review />} />
         <Route path="contact" element={<Contact />} />

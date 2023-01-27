@@ -8,11 +8,11 @@ const Header = () => {
   return (
     <>
     <header className='header'>
-        <Link to="/"><h2 className='logo'>DEMON GAMING</h2></Link>
+        <Link to="/demon-gaming"><h2 className='logo'>DEMON GAMING</h2></Link>
         <nav className='navbar'>
             <ul className='nav-links'>
                 <li>
-                <Link to="/">Home</Link>
+                <Link to="/demon-gaming">Home</Link>
                     </li>
                 <li><Link to="/games">Games</Link></li>
                 <li><Link to="/reviews">Reviews</Link></li>
