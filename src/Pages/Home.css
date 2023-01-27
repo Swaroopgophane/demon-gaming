@@ -1,0 +1,310 @@
+.main-section{
+    width: 100%;
+    height: 90vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.136)),url("../../public/images/wp5570866.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-inner{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+.main-inner .main-label{
+    color: var(--commonbackground);
+}
+
+.arrival-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    row-gap: 20px;
+    column-gap: 20px;
+    box-shadow: 2px 2px 14px 3px rgba(0, 0, 0, 0.293);
+    padding: 35px;
+}
+
+.arrival-col img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.arrival-col
+{
+    position: relative;
+    
+}
+.arrival-info{
+    text-align: center;
+    background: var(--commongradient);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0;
+    transition: all .4s;
+}
+
+.arrival-info a
+{
+    color: #fff;
+}
+
+.arrival-col:hover .arrival-info{
+    opacity: 1;
+}
+
+
+
+.trailer-container{
+    width: 100%;
+}
+.video-section
+{
+    position: relative;
+}
+.video-section img
+{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.video-play{
+    position: absolute;
+    top: 0;
+    background: var(--tintbackground);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-info
+{
+    text-align: center;
+    color: #fff;
+}
+
+.video-info h2{
+    font-size: 40px;
+}
+
+.video-info img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.trending-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    row-gap: 50px;
+    column-gap: 40px;
+}
+
+.trainding-col img
+{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.trending-game-info{
+    background: var(--tintbackground);
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+}
+
+.trainding-col:hover .trending-game-info{
+    background: var(--commonbackground);
+}
+
+.trainding-col:hover .trending-game-info button{
+    background: #fff;
+    color: #000;
+}
+
+
+
+
+.tournament-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.tournament-col{
+    display: flex;
+    background: var(--tintbackground);
+    padding: 20px;
+    width: 45%;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.tour-info{
+    padding-left: 20px;
+}
+.tour-info h2{
+    color: var(--commonbackground);
+}
+.tour-info span{
+    color: rgba(255, 255, 255, 0.604);
+}
+
+.tour-img img{
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.subscribe-container{
+    width: 100%;
+    padding: 70px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.771),rgba(0, 0, 0, 0.47)),url("../../public/images/assassins-creed-game-4k-h8-3840x2400.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subs-section{
+    width: 50%;
+    margin: auto;
+}
+.subs-section h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+.subs-form input{
+    width: 100%;
+    height: 45px;
+    padding-left: 15px;
+    border: none;
+    font-size: 17px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.subs-btn{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
+
+
+@media (min-width:0px) and (max-width:570px)
+{
+
+    /*========== Home page media query ======== */
+
+
+    .main-section{
+        background-attachment: unset;
+        height:auto;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    
+
+    .main-section{
+        background-attachment:unset;
+    }
+    
+    .main-inner h1{
+        font-size: 40px;
+    }
+
+    .btn{
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .common-heading h2{
+        font-size: 30px;
+    }
+    .common-heading h2::before{
+        width: 100px;
+    }
+
+
+    .arrival-container{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        padding: 15px;
+    }
+
+    .video-info h2{
+        font-size: 30px;
+    }
+
+    .trending-section{
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+
+
+    .subs-section{
+        width: 90%;
+    }
+
+    .subs-section h2{
+        font-size: 30px;
+    }
+
+    .subs-form input{
+        height: 40px;
+    }
+
+
+    .tournament-container{
+        flex-direction: column;
+    }
+
+    .tournament-col{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .tour-img img{
+        width: 100%;
+        height: 250px;
+    }
+    .tour-info{
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+
+}
+
+
+
+
+

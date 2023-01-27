@@ -1,0 +1,59 @@
+
+.review-page{
+    background: linear-gradient(#00000094,rgba(0, 0, 0, 0.459)),url("../../public/images/gears-4-gameplay-4k-8o-min.jpg");
+    background-size: cover;
+}
+
+.review-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    row-gap: 80px;
+    column-gap: 50px;
+}
+
+.review-col img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.review-info{
+    margin-top: 30px;
+}
+
+.review-date{
+    padding: 10px 20px;
+    background: var(--commonbackground);
+    color: #fff;
+}
+
+.review-heading{
+    margin-top: 20px;
+}
+
+.author-info{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.author{
+    border-right: 2px solid #000;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.comments a{
+    text-decoration: none;
+    color: #000;
+}
+
+.comments a:hover{
+    color: var(--commonbackground);
+}
+
+.game-rating{
+    display: flex;
+    gap: 5px;
+    color: rgb(228, 188, 10);
+    margin-bottom: 10px;
+}
