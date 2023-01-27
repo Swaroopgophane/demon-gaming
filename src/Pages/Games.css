@@ -58,3 +58,21 @@
     font-size: 17px;
     border: 1px solid #fff;
 }
+
+
+
+@media (min-width:0px) and (max-width:570px)
+{
+
+    /*========== Games page media query ======== */
+
+    .common-page-head h2{
+        font-size: 45px;
+    }
+
+    .games-section{
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); 
+    }
+
+
+}

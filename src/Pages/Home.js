@@ -12,7 +12,7 @@ const Home = () => {
         <div className='main-inner common-animation'>
           <h1>Welcome To <span className='main-label'>Demon</span> Gaming</h1>
           <h2>The Best Games Out There</h2>
-          <a href="/games"><button className='main-btn btn'>Explore More</button></a>
+          <button className='main-btn btn'>Explore More</button>
         </div>
       </main>
 

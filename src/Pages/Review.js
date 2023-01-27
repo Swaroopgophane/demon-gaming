@@ -24,7 +24,7 @@ const Review = () => {
                     <h2 className='review-heading'>{curEle.rheading}</h2>
                     <div className='author-info'>
                       <span className='author'>{curEle.rauthor}</span>
-                      <span className='comments'><a href="/reviews">{curEle.rcomments}</a></span>
+                      <span className='comments'>{curEle.rcomments}</span>
                     </div>
                     <div className='game-rating'>{curEle.rating}</div>
                     <p>{curEle.rdesc}</p>

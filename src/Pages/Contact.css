@@ -59,3 +59,19 @@
     text-align: center;
     margin-top: 20px;
 }
+
+
+
+@media (min-width:0px) and (max-width:570px)
+{
+
+    /*========== Contact page media query ======== */
+
+    .form-group{
+        flex-direction: column;
+    }
+
+    .form-group input{
+        width: 100%;
+    }
+}
