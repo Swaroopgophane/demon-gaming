@@ -15,11 +15,11 @@ const Contact = () => {
       <h2>Get In Touch</h2>
       <form className='contact-form'>
         <div className='form-group'>
-          <input type="text" placeholder='Name' />
-          <input type="email" placeholder='Email' />
+          <input type="text" placeholder='Name' required />
+          <input type="email" placeholder='Email' required />
         </div>
         <div className='form-group2'>
-          <input type="text" placeholder='Subject' />
+          <input type="text" placeholder='Subject' required />
           <textarea placeholder='Message' cols="30" rows="10"></textarea>
         </div>
         <div className='form-btn'>
